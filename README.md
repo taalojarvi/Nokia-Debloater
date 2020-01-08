@@ -38,7 +38,7 @@ Simple, Because -
 >	On Windows
 1. Download ADB from the the link above
 2. Extract the contents of the .zip into a folder named adb. (***BE SURE TO EXTRACT EVERYTHING FROM THE .ZIP INTO THE FOLDER***)
-3. Download the script from the releases section
+3. Download the file titled "batch-script" from the releases section
 4. Move the script into the folder where you have extracted the platform tool/ADB
 5. Connect phone to your PC
 6. Double click "batch-script" and run
@@ -46,10 +46,10 @@ Simple, Because -
 
 >	On Linux
 1. Install adb-fastboot tools using the link above, or if you're running an Ubuntu based system, run the following command in the terminal - "sudo apt-get install android-tools-adb android-tools-fastboot"
-2. Download "debloat.sh" from the releases section
-3. Open a terminal in the location where you downloaded the debloater. For example, if your file is downloaded in "/home/user/downloads", open a terminal there, or open a regular terminal and run the command "cd /home/user/downloads/"
+2. Download "shell-script.sh" from the releases section
+3. Open a terminal in the location where you downloaded the script. For example, if your file is downloaded in "/home/user/downloads", open a terminal there, or open a regular terminal and run the command "cd /home/user/downloads/"
 4. Connect your phone to the PC.
-5. In the same terminal window from before, run the command "./debloat.sh"; To disable Duraspeed, run "./duraspeed.sh"
+5. In the same terminal window from before, run the command "./shell-script.sh""
 6. You will see a prompt on your phone, Tap on the always allow this PC option and tap Ok.
 
 
@@ -77,10 +77,11 @@ Simple, Because -
 - [ ] Implement a way to re-install the debloated apps
 - [ ] Add options to debloat google apps
 - [ ] Add options to debloat specific apps
-- [ ] Add options for rebooting to bootloader and recovery mode
+- [x] Add options for rebooting to bootloader and recovery mode on Linux
+- [x] Add options for rebooting to bootloader and recovery mode on Windows
 - [x] Add option to turn off Duraspeed on Mediatek chipset based devices
 - [x] Port script to Linux (thanks to @Sid127)
-- [ ] Combine Linux scripts into one script
+- [x] Combine Linux scripts into one script
 - [ ] Port script to MacOS
 
 ## Screenshots
