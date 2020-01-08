@@ -1,6 +1,6 @@
 
 # Nokia-Debloater
-A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps.
+A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps. (Forked from @Thanuj10. Massive thanks!)
 
 ##### Author's Note - I tried adding apps to debloat from the Chinese ROM, Unfortunately they come back into the system after debloating. Hence, There is no way to remove these apps other than rooting. Please do not try using the Global ROM's script on Chinese devices, You can potentially brick your phone and your only option to recover will be factory resetting.
 
@@ -36,6 +36,7 @@ Simple, Because -
 
 > Prepping the script and ADB
 >	On Windows
+> Get the Windows version from https://github.com/thanuj10/Nokia-Debloater/releases
 1. Download ADB from the the link above
 2. Extract the contents of the .zip into a folder named adb. (***BE SURE TO EXTRACT EVERYTHING FROM THE .ZIP INTO THE FOLDER***)
 3. Download the file titled "batch-script" from the releases section
@@ -78,7 +79,7 @@ Simple, Because -
 - [ ] Add options to debloat google apps
 - [ ] Add options to debloat specific apps
 - [x] Add options for rebooting to bootloader and recovery mode on Linux
-- [x] Add options for rebooting to bootloader and recovery mode on Windows
+- [ ] Add options for rebooting to bootloader and recovery mode on Windows
 - [x] Add option to turn off Duraspeed on Mediatek chipset based devices
 - [x] Port script to Linux (thanks to @Sid127)
 - [x] Combine Linux scripts into one script
