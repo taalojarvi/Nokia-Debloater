@@ -74,15 +74,14 @@ Simple, Because -
 5. Are there possibilities of bricking my device?
 > Yes, But it's very rare and you need not be worried because I will test every version before releasing it on GitHub.
 
-## TO-Do List 
+## To-Do List (Linux)
 
-- [ ] Implement a way to re-install the debloated apps
+- [x] Implement a way to re-install the debloated apps
 - [ ] Add options to debloat google apps
 - [ ] Add options to debloat specific apps
 - [x] Add options for rebooting to bootloader and recovery mode on Linux
-- [ ] Add options for rebooting to bootloader and recovery mode on Windows
 - [x] Add option to turn off Duraspeed on Mediatek chipset based devices
-- [x] Port script to Linux (thanks to @Sid127)
+- [x] Port script to Linux
 - [x] Combine Linux scripts into one script
 - [ ] Port script to MacOS
 
