@@ -54,6 +54,15 @@ Simple, Because -
 5. In the same terminal window from before, run the command "./shell-script.sh""
 6. You will see a prompt on your phone, Tap on the always allow this PC option and tap Ok.
 
+> On MacOS
+
+1. Install adb-fastboot tools using the link above..
+2. Download "shell-script.sh" from the releases section
+3. Open a terminal in the location where you downloaded the script. For example, if your file is downloaded in "/home/user/downloads", open a terminal there, or open a regular terminal and run the command "cd /home/user/downloads/"
+4. Connect your phone to the PC.
+5. In the same terminal window from before, run the command "chmod 755 shell-script.sh" and then run "./shell-script.sh""
+6. You will see a prompt on your phone, Tap on the always allow this PC option and tap Ok.
+
 
 | If you are running adb for the first time, You might get an error like this - *No devices/emulators found*, If you did, Then please ensure that you have tapped the ok option on the prompt from your phone. 
 
@@ -83,7 +92,7 @@ Simple, Because -
 - [x] Add option to turn off Duraspeed on Mediatek chipset based devices
 - [x] Port script to Linux
 - [x] Combine Linux scripts into one script
-- [ ] Port script to MacOS
+- [x] Port script to MacOS
 
 ## Screenshots
 
