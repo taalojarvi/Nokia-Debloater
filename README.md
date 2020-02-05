@@ -1,6 +1,6 @@
 
 # Nokia-Debloater
-A simple noob-friendly script that debloats your phone from the evenwell apps and soon, Google Apps. (Forked from @thanuj10. Massive thanks!)
+A simple noob-friendly script that debloats your phone from the Evenwell apps and optionally, Google Apps. (Forked from @thanuj10. Massive thanks!)
 
 ##### Author's Note - I tried adding apps to debloat from the Chinese ROM, Unfortunately they come back into the system after debloating. Hence, There is no way to remove these apps other than rooting. Please do not try using the Global ROM's script on Chinese devices, You can potentially brick your phone and your only option to recover will be factory resetting.
 ##### For the Windows version of this script, head to - https://github.com/thanuj10/Nokia-Debloater/releases
@@ -20,6 +20,39 @@ Simple, Because -
 1. I do not want any dead app that previously had an history of snooping in my system.
 2. They are not supposed to be there in the first place.
 
+## How do I uninstall Google Apps?
+The Debloating of Google Apps is only possible on the Linux/OSX version of this script, and requires you to create a configuration file that contains a list of the package names of the apps you want to debloat.
+
+# Here is a list of common Google Apps and their package names:
+
+App Name | Package Name
+--- | ---
+Android Auto | com.google.android.projection.gearhead
+Calculator | com.google.android.calculator
+Calendar | com.google.android.calendar
+Carrier Services | com.google.android.ims
+Chrome | com.android.chrome
+Clock | com.google.android.deskclock
+Contacts | com.google.android.contacts
+Device Health Services | com.google.android.apps.turbo
+Digital Wellbeing | com.google.android.apps.wellbeing
+Drive | com.google.android.apps.docs
+Files | com.google.android.apps.nbu.files
+Gboard | com.google.android.inputmethod.latin
+Gmail | com.google.android.gm
+Google | com.google.android.googlequicksearchbox
+Google News | com.google.android.apps.magazines
+Google Play Books | com.google.android.apps.books
+Google Play Services for AR | com.google.ar.core
+Google Text to Speech Engine | com.google.android.tts
+Lens | com.google.ar.lens
+Maps | com.google.android.apps.maps
+Messages | com.google.android.apps.messaging
+Phone | com.google.android.dialer
+Photos | com.google.android.apps.photos
+Youtube | com.google.android.youtube
+
+Copy the package names of the apps you want to debloat and paste them in a file called "config.cfg". Place this file in the directory that the Debloater script prompts you to place it in.
 
 ## Okay, You've convinced me. What do I need?
 1. A Nokia phone
@@ -86,8 +119,8 @@ Simple, Because -
 ## To-Do List (Linux)
 
 - [x] Implement a way to re-install the debloated apps
-- [ ] Add options to debloat google apps
-- [ ] Add options to debloat specific apps
+- [x] Add options to debloat google apps
+- [x] Add options to debloat specific apps
 - [x] Add options for rebooting to bootloader and recovery mode on Linux
 - [x] Add option to turn off Duraspeed on Mediatek chipset based devices
 - [x] Port script to Linux
