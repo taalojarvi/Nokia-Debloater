@@ -14,6 +14,10 @@ then
 	echo = Menu =
 	echo [1] Evenwell
 	echo [2] Google
+	echo
+	echo Place the "config.cfg" file in
+	pwd
+	echo
 	read d
 	if [[ $d -eq 1 ]]
 	then
@@ -145,7 +149,7 @@ then
 		echo Make sure your config.cfg file is in this location:
 		pwd
 		echo
-		sleep 10
+		sleep 3
 		input="config.cfg"
 		while IFS= read -r app
 		do
@@ -188,6 +192,10 @@ then
 	echo = Menu =
 	echo [1] Evenwell
 	echo [2] Google
+	echo
+	echo Place your config.cfg file in
+	pwd
+	echo
 	read d
 	if [[ $d -eq 1 ]]
 	then
