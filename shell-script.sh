@@ -1,7 +1,15 @@
 clear
-echo Hello! This script will debloat your Nokia device of all the unwanted evenwell apps/overlays.
+echo ____________________________________________
+echo \|---------NOKIA-------DEBLOATER------------\|
+echo \|__________________________________________\|
+echo \|---------------V1dot8---------------------\|
+echo \|__________________________________________\|
+echo \|--Contact the developer at @Sid127 on TG--\|
+echo \|__________________________________________\|
 sleep 3
-clear
+echo
+echo
+echo
 echo = Menu =
 echo [1]Debloat
 echo [2]Rebloat
@@ -11,6 +19,16 @@ read i
 if [[ $i -eq 1 ]]
 then
 	clear
+	echo ____________________________________________
+	echo \|---------NOKIA-------DEBLOATER------------\|
+	echo \|__________________________________________\|
+	echo \|---------------V1dot8---------------------\|
+	echo \|__________________________________________\|
+	echo \|--Contact the developer at @Sid127 on TG--\|
+	echo \|__________________________________________\|
+	echo
+	echo
+	echo
 	echo = Menu =
 	echo [1] Evenwell
 	echo [2] Google
@@ -22,13 +40,19 @@ then
 	if [[ $d -eq 1 ]]
 	then
 		clear
+		echo ____________________________________________
+		echo \|---------NOKIA-------DEBLOATER------------\|
+		echo \|__________________________________________\|
+		echo \|---------------V1dot8---------------------\|
+		echo \|__________________________________________\|
+		echo \|--Contact the developer at @Sid127 on TG--\|
+		echo \|__________________________________________\|
+		echo
 		echo
 		echo
 		echo The debloating process will now begin. Please be patient.
 		echo
-		echo
 		echo While this script deletes most of the Evenwell apps, Some of them will still be in the system. Mostly because they seem important.
-		echo
 		echo
 		echo I take no responsibility should something go wrong. Although I take a lot of care and time testing the script, There are chances that you can brick your phone.
 		echo
@@ -144,6 +168,17 @@ then
 		exit
 	elif [[ $d -eq 2 ]]
 	then
+		clear
+		echo ____________________________________________
+		echo \|---------NOKIA-------DEBLOATER------------\|
+		echo \|__________________________________________\|
+		echo \|---------------V1dot8---------------------\|
+		echo \|__________________________________________\|
+		echo \|--Contact the developer at @Sid127 on TG--\|
+		echo \|__________________________________________\|
+		echo
+		echo
+		echo
 		echo Uninstalling Google apps as mentioned in config file.
 		echo
 		echo Make sure your config.cfg file is in this location:
@@ -189,6 +224,16 @@ then
 elif [[ $i -eq 2 ]]
 then
 	clear
+	echo ____________________________________________
+	echo \|---------NOKIA-------DEBLOATER------------\|
+	echo \|__________________________________________\|
+	echo \|---------------V1dot8---------------------\|
+	echo \|__________________________________________\|
+	echo \|--Contact the developer at @Sid127 on TG--\|
+	echo \|__________________________________________\|
+	echo
+	echo
+	echo
 	echo = Menu =
 	echo [1] Evenwell
 	echo [2] Google
@@ -200,6 +245,14 @@ then
 	if [[ $d -eq 1 ]]
 	then
 		clear
+		echo ____________________________________________
+		echo \|---------NOKIA-------DEBLOATER------------\|
+		echo \|__________________________________________\|
+		echo \|---------------V1dot8---------------------\|
+		echo \|__________________________________________\|
+		echo \|--Contact the developer at @Sid127 on TG--\|
+		echo \|__________________________________________\|
+		echo
 		echo
 		echo
 		echo The rebloating process will now begin. Please be patient.
@@ -318,6 +371,17 @@ then
 		exit
 	elif [[ $d -eq 2 ]]
 	then
+		clear
+		echo ____________________________________________
+		echo \|---------NOKIA-------DEBLOATER------------\|
+		echo \|__________________________________________\|
+		echo \|---------------V1dot8---------------------\|
+		echo \|__________________________________________\|
+		echo \|--Contact the developer at @Sid127 on TG--\|
+		echo \|__________________________________________\|
+		echo
+		echo
+		echo
 		echo Re-installing Google apps as mentioned in config file.
 		echo
 		echo Make sure your config.cfg file is in this location:
@@ -362,6 +426,16 @@ then
 	fi
 elif [[ $i -eq 3 ]]
 then
+	clear
+	echo ____________________________________________
+	echo \|---------NOKIA-------DEBLOATER------------\|
+	echo \|__________________________________________\|
+	echo \|---------------V1dot8---------------------\|
+	echo \|__________________________________________\|
+	echo \|--Contact the developer at @Sid127 on TG--\|
+	echo \|__________________________________________\|
+	echo
+	echo
 	echo
 	echo Duraspeed will now be disabled, Please don\'t reboot your phone.
 	echo
@@ -378,6 +452,17 @@ then
 	exit
 elif [[ $i -eq 4 ]]
 then
+	clear
+	echo ____________________________________________
+	echo \|---------NOKIA-------DEBLOATER------------\|
+	echo \|__________________________________________\|
+	echo \|---------------V1dot8---------------------\|
+	echo \|__________________________________________\|
+	echo \|--Contact the developer at @Sid127 on TG--\|
+	echo \|__________________________________________\|
+	echo
+	echo
+	echo
 	echo Okay! Exiting the script.
 	sleep 3
 	clear
