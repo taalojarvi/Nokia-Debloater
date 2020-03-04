@@ -2,7 +2,7 @@ clear
 echo ____________________________________________
 echo \|---------NOKIA-------DEBLOATER------------\|
 echo \|__________________________________________\|
-echo \|---------------V1dot8---------------------\|
+echo \|---------------V1dot9---------------------\|
 echo \|__________________________________________\|
 echo \|--Contact the developer at @Sid127 on TG--\|
 echo \|__________________________________________\|
@@ -22,7 +22,7 @@ then
 	echo ____________________________________________
 	echo \|---------NOKIA-------DEBLOATER------------\|
 	echo \|__________________________________________\|
-	echo \|---------------V1dot8---------------------\|
+	echo \|---------------V1dot9---------------------\|
 	echo \|__________________________________________\|
 	echo \|--Contact the developer at @Sid127 on TG--\|
 	echo \|__________________________________________\|
@@ -43,7 +43,7 @@ then
 		echo ____________________________________________
 		echo \|---------NOKIA-------DEBLOATER------------\|
 		echo \|__________________________________________\|
-		echo \|---------------V1dot8---------------------\|
+		echo \|---------------V1dot9---------------------\|
 		echo \|__________________________________________\|
 		echo \|--Contact the developer at @Sid127 on TG--\|
 		echo \|__________________________________________\|
@@ -137,6 +137,12 @@ then
 		adb shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.base.s600ww
 		adb shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.back.s600id
 		adb shell pm uninstall --user 0 com.evenwell.UsageStatsLogReceiver
+		adb shell pm uninstall --user 0 co.sitic.pp
+		adb shell pm uninstall --user 0 com.hmdglobal.enterprise.api
+		adb shell pm uninstall --user 0 com.qualcomm.qti.qms.service.telemetry
+		adb shell pm uninstall --user 0 com.qualcomm.qti.qmmi
+		adb shell pm uninstall --user 0 com.qualcomm.qti.qdma
+		adb shell pm uninstall --user 0 com.picmix.mobile
 		adb shell rm -rf /data/dalvik-cache
 
 		echo
@@ -172,7 +178,7 @@ then
 		echo ____________________________________________
 		echo \|---------NOKIA-------DEBLOATER------------\|
 		echo \|__________________________________________\|
-		echo \|---------------V1dot8---------------------\|
+		echo \|---------------V1dot9---------------------\|
 		echo \|__________________________________________\|
 		echo \|--Contact the developer at @Sid127 on TG--\|
 		echo \|__________________________________________\|
@@ -227,7 +233,7 @@ then
 	echo ____________________________________________
 	echo \|---------NOKIA-------DEBLOATER------------\|
 	echo \|__________________________________________\|
-	echo \|---------------V1dot8---------------------\|
+	echo \|---------------V1dot9---------------------\|
 	echo \|__________________________________________\|
 	echo \|--Contact the developer at @Sid127 on TG--\|
 	echo \|__________________________________________\|
@@ -248,7 +254,7 @@ then
 		echo ____________________________________________
 		echo \|---------NOKIA-------DEBLOATER------------\|
 		echo \|__________________________________________\|
-		echo \|---------------V1dot8---------------------\|
+		echo \|---------------V1dot9---------------------\|
 		echo \|__________________________________________\|
 		echo \|--Contact the developer at @Sid127 on TG--\|
 		echo \|__________________________________________\|
@@ -340,6 +346,12 @@ then
 		adb shell cmd install-existing --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.base.s600ww
 		adb shell cmd install-existing --user 0 com.evenwell.UsageStatsLogReceiver.data.overlay.back.s600id
 		adb shell cmd install-existing --user 0 com.evenwell.UsageStatsLogReceiver
+		adb shell cmd install-existing --user 0 co.sitic.pp
+		adb shell cmd install-existing --user 0 com.hmdglobal.enterprise.api
+		adb shell cmd install-existing --user 0 com.qualcomm.qti.qms.service.telemetry
+		adb shell cmd install-existing --user 0 com.qualcomm.qti.qmmi
+		adb shell cmd install-existing --user 0 com.qualcomm.qti.qdma
+		adb shell cmd install-existing --user 0 com.picmix.mobile
 		adb shell rm -rf /data/dalvik-cache
 
 		echo
@@ -375,7 +387,7 @@ then
 		echo ____________________________________________
 		echo \|---------NOKIA-------DEBLOATER------------\|
 		echo \|__________________________________________\|
-		echo \|---------------V1dot8---------------------\|
+		echo \|---------------V1dot9---------------------\|
 		echo \|__________________________________________\|
 		echo \|--Contact the developer at @Sid127 on TG--\|
 		echo \|__________________________________________\|
@@ -430,7 +442,7 @@ then
 	echo ____________________________________________
 	echo \|---------NOKIA-------DEBLOATER------------\|
 	echo \|__________________________________________\|
-	echo \|---------------V1dot8---------------------\|
+	echo \|---------------V1dot9---------------------\|
 	echo \|__________________________________________\|
 	echo \|--Contact the developer at @Sid127 on TG--\|
 	echo \|__________________________________________\|
@@ -456,7 +468,7 @@ then
 	echo ____________________________________________
 	echo \|---------NOKIA-------DEBLOATER------------\|
 	echo \|__________________________________________\|
-	echo \|---------------V1dot8---------------------\|
+	echo \|---------------V1dot9---------------------\|
 	echo \|__________________________________________\|
 	echo \|--Contact the developer at @Sid127 on TG--\|
 	echo \|__________________________________________\|
