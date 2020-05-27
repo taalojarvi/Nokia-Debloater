@@ -19,7 +19,7 @@ echo [3]Disable DuraSpeed
 echo [4]Optimize apps
 echo [5]Exit
 read i
-if [[ $i -eq 4]]
+if [[ $i -eq 4 ]]
 then
 	clear
 	echo ____________________________________________
