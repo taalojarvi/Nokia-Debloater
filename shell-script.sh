@@ -10,23 +10,17 @@ echo = Menu =
 echo [1]Debloat
 echo [2]Rebloat
 echo [3]Disable DuraSpeed
-echo [4]Optimize apps
+echo [4]Optimize apps using bg-dexopt-job
 echo [5]Exit
 read i
 if [[ $i -eq 4 ]]
 then
 	clear
 	echo -e "$str"
-	echo Optimizing apps using speed-profile. This process could take up to 20 minutes to complete. Please do not disconnect your device to avoid any issues.
-	echo
-	echo
+	echo -e "Optimizing apps using speed-profile. This process could take up to 20 minutes to complete. Do not disconnect your device.\n\n"
 	adb shell pm bg-dexopt-job
-	echo
-	echo
-	echo
-	echo Optimization is complete, how would you like to reboot?
-	echo
-	echo
+	echo -e "\n\n"
+	echo -e "Optimization is complete. How would you like to reboot?\n\n"
 	echo [1]Normal
 	echo [2]Recovery
 	echo [3]Bootloader
@@ -42,10 +36,7 @@ then
 		adb reboot bootloader
 	fi
 	clear
-	echo Rebooting Phone...
-	echo
-	echo
-	echo
+	echo -e "Rebooting Phone...\n\n\n"
 	sleep 3
 	clear
 	exit
@@ -55,9 +46,8 @@ then
 	clear
 	echo -e "$str"
 	echo = Menu =
-	echo [1] Evenwell
-	echo [2] Google
-	echo
+	echo -e "[1] Evenwell"
+	echo -e "[2] Google\n"
 	echo Place the "config.cfg" file in
 	pwd
 	echo
@@ -66,12 +56,9 @@ then
 	then
 		clear
 		echo -e "$str"
-		echo The debloating process will now begin. Please be patient.
-		echo
-		echo While this script deletes most of the Evenwell apps, Some of them will still be in the system. Mostly because they seem important.
-		echo
-		echo I take no responsibility should something go wrong. Although I take a lot of care and time testing the script, There are chances that you can brick your phone.
-		echo
+		echo -e "The debloating process will now begin. Please be patient.\n"
+		echo -e "While this script disables most of the Evenwell apps, Some of them will remain as they are necessary for the proper functioning of your device.\n"
+		echo -e "I take no responsibility should something go wrong. Although I take a lot of care and time testing the script, There are chances that you may brick your phone.\n"
 		sleep 1
 
 		adb devices
@@ -161,11 +148,8 @@ then
 		adb shell pm uninstall --user 0 com.picmix.mobile
 		adb shell rm -rf /data/dalvik-cache
 
-		echo
-		echo
-		echo The debloating is now finished. How would you like to to reboot your phone?
-		echo
-		echo
+		printf "\n\n"
+		echo -e "The debloating is now finished. How would you like to to reboot your phone?\n\n"
 		echo [1]Normal
 		echo [2]Recovery
 		echo [3]Bootloader
@@ -181,10 +165,7 @@ then
 			adb reboot bootloader
 		fi
 		clear
-		echo Rebooting Phone...
-		echo
-		echo
-		echo
+		echo -e "Rebooting Phone...\n\n\n"
 		sleep 3
 		clear
 		exit
@@ -192,8 +173,7 @@ then
 	then
 		clear
 		echo -e "$str"
-		echo Uninstalling Google apps as mentioned in config file.
-		echo
+		echo -e "Uninstalling Google apps as specified in config file\n"
 		echo Make sure your config.cfg file is in this location:
 		pwd
 		echo
@@ -206,13 +186,10 @@ then
 
 		adb shell rm -rf /data/dalvik-cache
 
-		echo
-		echo
-		echo The debloating is now finished. How would you like to to reboot your phone?
-		echo
-		echo
+		echo -e "\n\n"
+		echo -e "The debloating is now finished. How would you like to to reboot your phone?\n\n"
 		echo [1]Normal
-		echo [2]Recovery
+		echo 2]Recovery
 		echo [3]Bootloader
 		read r
 		if [[ $r -eq 1 ]]
@@ -226,10 +203,7 @@ then
 			adb reboot bootloader
 		fi
 		clear
-		echo Rebooting Phone...
-		echo
-		echo
-		echo
+		echo -e "Rebooting Phone...\n\n"
 		sleep 3
 		clear
 		exit
@@ -239,10 +213,9 @@ then
 	clear
 	echo -e "$str"
 	echo = Menu =
-	echo [1] Evenwell
-	echo [2] Google
-	echo
-	echo Place your config.cfg file in
+	echo "[1] Evenwell"
+	echo -e "[2] Google\n"
+	echo "Place your config.cfg file in"
 	pwd
 	echo
 	read d
@@ -250,10 +223,8 @@ then
 	then
 		clear
 		echo -e "$str"
-		echo The rebloating process will now begin. Please be patient.
-		echo
-		echo I take no responsibility should something go wrong. Although I take a lot of care and time testing the script, There are chances that you can brick your phone.
-		echo
+		echo -e "The rebloating process will now begin. Please be patient.\n"
+		echo -e "I take no responsibility should something go wrong. Although I take a lot of care and time testing the script, There are chances that you may brick your phone.\n"
 		sleep 1
 
 		adb devices
@@ -343,11 +314,8 @@ then
 		adb shell cmd install-existing --user 0 com.picmix.mobile
 		adb shell rm -rf /data/dalvik-cache
 
-		echo
-		echo
-		echo The rebloating is now finished. How would you like to to reboot your phone?
-		echo
-		echo
+		echo -e "\n"
+		echo -e "The rebloating is now finished. How would you like to to reboot your phone?\n\n"
 		echo [1]Normal
 		echo [2]Recovery
 		echo [3]Bootloader
@@ -363,10 +331,7 @@ then
 			adb reboot bootloader
 		fi
 		clear
-		echo Rebooting Phone...
-		echo
-		echo
-		echo
+		echo -e "Rebooting Phone...\n\n\n"
 		sleep 3
 		clear
 		exit
@@ -374,8 +339,7 @@ then
 	then
 		clear
 		echo -e "$str"
-		echo Re-installing Google apps as mentioned in config file.
-		echo
+		echo -e "Re-installing Google apps as specified in config file.\n"
 		echo Make sure your config.cfg file is in this location:
 		pwd
 		echo
@@ -388,11 +352,8 @@ then
 
 		adb shell rm -rf /data/dalvik-cache
 
-		echo
-		echo
-		echo The rebloating is now finished. How would you like to to reboot your phone?
-		echo
-		echo
+		echo -e "\n"
+		echo -e "The rebloating is now finished. How would you like to to reboot your phone?\n\n"
 		echo [1]Normal
 		echo [2]Recovery
 		echo [3]Bootloader
@@ -408,10 +369,7 @@ then
 			adb reboot bootloader
 		fi
 		clear
-		echo Rebooting Phone...
-		echo
-		echo
-		echo
+		echo -e "Rebooting Phone...\n\n\n"
 		sleep 3
 		clear
 		exit
@@ -420,16 +378,13 @@ elif [[ $i -eq 3 ]]
 then
 	clear
 	echo -e "$str"
-	echo Duraspeed will now be disabled, Please don\'t reboot your phone.
-	echo
+	echo -e "Duraspeed will now be disabled. Do not reboot your phone.\n"
 	sleep 1
 
 	adb devices
 	adb shell settings put global setting.duraspeed.enabled 0
 
-	echo
-	echo Duraspeed is now disabled. Everytime you reboot your phone, Please open the script back and run this command.
-	echo
+	echo -e "Duraspeed is now disabled. Everytime you reboot your phone, Please open the script back and run this command.\n"
 	sleep 3
 	clear
 	exit
@@ -437,7 +392,7 @@ elif [[ $i -eq 4 ]]
 then
 	clear
 	echo -e "$str"
-	echo Okay! Exiting the script.
+	echo "Okay! Exiting the script."
 	sleep 3
 	clear
 	exit
