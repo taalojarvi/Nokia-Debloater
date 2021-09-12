@@ -181,7 +181,7 @@ then
 		input="config.cfg"
 		while IFS= read -r app
 		do
-			adb shell pm uninstall --user 0 $app
+			adb shell pm uninstall --user 0 "$app"
 		done < "$input"
 
 		adb shell rm -rf /data/dalvik-cache
@@ -347,7 +347,7 @@ then
 		input="config.cfg"
 		while IFS= read -r app
 		do
-			adb shell cmd install-existing --user 0 $app
+			adb shell cmd install-existing --user 0 "$app"
 		done < "$input"
 
 		adb shell rm -rf /data/dalvik-cache
