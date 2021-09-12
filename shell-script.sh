@@ -1,14 +1,8 @@
 clear
-echo ____________________________________________
-echo \|---------NOKIA-------DEBLOATER------------\|
-echo \|__________________________________________\|
-echo \|---------------V2dot0---------------------\|
-echo \|__________________________________________\|
-echo \|--Contact the developer at @Sid127 on TG--\|
-echo \|__________________________________________\|
+export str="___________________________________________\n|---------NOKIA-------DEBLOATER------------|\n|__________________________________________|\n|---------------V2dot0---------------------|\n|---------------V2dot0---------------------|\n|---------------V2dot0---------------------|\n|__________________________________________|\n|--Contact the developer at @Sid127 on TG--|\n|__________________________________________|\n\n\n"
+echo -e "$str"
 sleep 3
-echo
-echo
+
 adb devices
 echo
 echo
@@ -22,16 +16,7 @@ read i
 if [[ $i -eq 4 ]]
 then
 	clear
-	echo ____________________________________________
-	echo \|---------NOKIA-------DEBLOATER------------\|
-	echo \|__________________________________________\|
-	echo \|---------------V2dot0---------------------\|
-	echo \|__________________________________________\|
-	echo \|--Contact the developer at @Sid127 on TG--\|
-	echo \|__________________________________________\|
-	echo
-	echo
-	echo
+	echo -e "$str"
 	echo Optimizing apps using speed-profile. This process could take up to 20 minutes to complete. Please do not disconnect your device to avoid any issues.
 	echo
 	echo
@@ -68,16 +53,7 @@ fi
 if [[ $i -eq 1 ]]
 then
 	clear
-	echo ____________________________________________
-	echo \|---------NOKIA-------DEBLOATER------------\|
-	echo \|__________________________________________\|
-	echo \|---------------V2dot0---------------------\|
-	echo \|__________________________________________\|
-	echo \|--Contact the developer at @Sid127 on TG--\|
-	echo \|__________________________________________\|
-	echo
-	echo
-	echo
+	echo -e "$str"
 	echo = Menu =
 	echo [1] Evenwell
 	echo [2] Google
@@ -89,16 +65,7 @@ then
 	if [[ $d -eq 1 ]]
 	then
 		clear
-		echo ____________________________________________
-		echo \|---------NOKIA-------DEBLOATER------------\|
-		echo \|__________________________________________\|
-		echo \|---------------V2dot0---------------------\|
-		echo \|__________________________________________\|
-		echo \|--Contact the developer at @Sid127 on TG--\|
-		echo \|__________________________________________\|
-		echo
-		echo
-		echo
+		echo -e "$str"
 		echo The debloating process will now begin. Please be patient.
 		echo
 		echo While this script deletes most of the Evenwell apps, Some of them will still be in the system. Mostly because they seem important.
@@ -224,16 +191,7 @@ then
 	elif [[ $d -eq 2 ]]
 	then
 		clear
-		echo ____________________________________________
-		echo \|---------NOKIA-------DEBLOATER------------\|
-		echo \|__________________________________________\|
-		echo \|---------------V2dot0---------------------\|
-		echo \|__________________________________________\|
-		echo \|--Contact the developer at @Sid127 on TG--\|
-		echo \|__________________________________________\|
-		echo
-		echo
-		echo
+		echo -e "$str"
 		echo Uninstalling Google apps as mentioned in config file.
 		echo
 		echo Make sure your config.cfg file is in this location:
@@ -279,16 +237,7 @@ then
 elif [[ $i -eq 2 ]]
 then
 	clear
-	echo ____________________________________________
-	echo \|---------NOKIA-------DEBLOATER------------\|
-	echo \|__________________________________________\|
-	echo \|---------------V2dot0---------------------\|
-	echo \|__________________________________________\|
-	echo \|--Contact the developer at @Sid127 on TG--\|
-	echo \|__________________________________________\|
-	echo
-	echo
-	echo
+	echo -e "$str"
 	echo = Menu =
 	echo [1] Evenwell
 	echo [2] Google
@@ -300,16 +249,7 @@ then
 	if [[ $d -eq 1 ]]
 	then
 		clear
-		echo ____________________________________________
-		echo \|---------NOKIA-------DEBLOATER------------\|
-		echo \|__________________________________________\|
-		echo \|---------------V2dot0---------------------\|
-		echo \|__________________________________________\|
-		echo \|--Contact the developer at @Sid127 on TG--\|
-		echo \|__________________________________________\|
-		echo
-		echo
-		echo
+		echo -e "$str"
 		echo The rebloating process will now begin. Please be patient.
 		echo
 		echo I take no responsibility should something go wrong. Although I take a lot of care and time testing the script, There are chances that you can brick your phone.
@@ -433,16 +373,7 @@ then
 	elif [[ $d -eq 2 ]]
 	then
 		clear
-		echo ____________________________________________
-		echo \|---------NOKIA-------DEBLOATER------------\|
-		echo \|__________________________________________\|
-		echo \|---------------V2dot0---------------------\|
-		echo \|__________________________________________\|
-		echo \|--Contact the developer at @Sid127 on TG--\|
-		echo \|__________________________________________\|
-		echo
-		echo
-		echo
+		echo -e "$str"
 		echo Re-installing Google apps as mentioned in config file.
 		echo
 		echo Make sure your config.cfg file is in this location:
@@ -488,16 +419,7 @@ then
 elif [[ $i -eq 3 ]]
 then
 	clear
-	echo ____________________________________________
-	echo \|---------NOKIA-------DEBLOATER------------\|
-	echo \|__________________________________________\|
-	echo \|---------------V2dot0---------------------\|
-	echo \|__________________________________________\|
-	echo \|--Contact the developer at @Sid127 on TG--\|
-	echo \|__________________________________________\|
-	echo
-	echo
-	echo
+	echo -e "$str"
 	echo Duraspeed will now be disabled, Please don\'t reboot your phone.
 	echo
 	sleep 1
@@ -514,16 +436,7 @@ then
 elif [[ $i -eq 4 ]]
 then
 	clear
-	echo ____________________________________________
-	echo \|---------NOKIA-------DEBLOATER------------\|
-	echo \|__________________________________________\|
-	echo \|---------------V2dot0---------------------\|
-	echo \|__________________________________________\|
-	echo \|--Contact the developer at @Sid127 on TG--\|
-	echo \|__________________________________________\|
-	echo
-	echo
-	echo
+	echo -e "$str"
 	echo Okay! Exiting the script.
 	sleep 3
 	clear
